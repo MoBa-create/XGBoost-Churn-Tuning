@@ -23,30 +23,3 @@ An end-to-end Machine Learning classification pipeline built with **XGBoost** an
 ## 🛠️ Tech Stack
 * **Language:** Python
 * **Libraries:** XGBoost, Scikit-Learn, Pandas, NumPy, Joblib
-
----
-
-## 📁 Repository Structure
-```text
-XGBoost-Churn-Tuning/
-│── train_xgboost.py          # Main training script with GridSearchCV optimization
-│── README.md                 # Project documentation
-│── requirements.txt          # Python dependencies
-│── .gitignore                # Git ignore rules
-└── outputs/                  # Saved model artifacts
-    └── xgboost_best_model.pkl # Optimized XGBoost model instance
-
-🚀 How to Run
-
-1 . Clone the repository:
-
-	git clone https://github.com/MoBa-create/XGBoost-Churn-Tuning.git
-cd XGBoost-Churn-Tuning
-
-2 . Install dependencies:
-
-	pip install -r requirements.txt
-
-3 . Execute model training:
-
-	python train_xgboost.py
